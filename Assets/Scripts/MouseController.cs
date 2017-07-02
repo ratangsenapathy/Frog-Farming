@@ -29,10 +29,14 @@ public class MouseController : MonoBehaviour {
 						if (hit.collider.tag == "Creature") {
 							Destroy (hit.collider.gameObject);
 							TurtleGenerator.turtleCount--;
+							ScoreManager.score += 10;
+							break;
 						}
 						else if (hit.collider.tag == "Creature2") {
 							Destroy (hit.collider.gameObject);
 							IguanaGenerator.iguanaCount--;
+							ScoreManager.score += 30;
+							break;
 						}
 					}
 				}
