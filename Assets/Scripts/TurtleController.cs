@@ -5,20 +5,18 @@ using UnityEngine;
 public class TurtleController : MonoBehaviour {
 
 	// Use this for initialization
-	public float landSpeed;
-	public float waterSpeed;
+	public float speed;
 
-	private float speed;
-	private Rigidbody rb;
+	//private float speed;
+	//private Rigidbody rb;
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
-		speed = 0.02f;
+		//rb = GetComponent<Rigidbody> ();
 	}
 	
 
 
 	void Update() {
-		Debug.Log (transform.rotation);
+		//Debug.Log (transform.rotation);
 //		if (transform.rotation.y > 45) {
 //			transform.rotation = Quaternion.Euler (new Vector3 (transform.rotation.x,0.0f,transform.rotation.z));
 //		}

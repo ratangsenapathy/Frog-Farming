@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Fence
+  - Terrain
+  - Creature
+  - Creature2
   layers:
   - Default
   - TransparentFX
