@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 24201006}
   - component: {fileID: 24201008}
   - component: {fileID: 24201007}
+  - component: {fileID: 24201009}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -257,6 +258,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 24201005}
+--- !u!114 &24201009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24201005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96161b65db1ef4d23afd02959841adff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &51790258 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4000012378391202, guid: ecc15abaa2d4963428bdf7fc9eb09410,
@@ -4295,6 +4307,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   terrain: {fileID: 1229236967}
   iguana: {fileID: 1290037374246296, guid: fb7cd9ca2ce9d4c0d8a46458e377beb0, type: 2}
+--- !u!114 &2018361264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2018361261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd51212760c1640368e457b4b51920c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startMin: 0
+  startSec: 0
 --- !u!114 &2018361269
 MonoBehaviour:
   m_ObjectHideFlags: 0
