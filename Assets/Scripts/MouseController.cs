@@ -14,7 +14,7 @@ public class MouseController : MonoBehaviour {
 
 	void Update(){
 
-		if (Input.GetMouseButton (0)) {
+		if (Input.GetMouseButtonDown (0)) {
 			Debug.Log ("Mouse Click");
 			RaycastHit[] hits;
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
